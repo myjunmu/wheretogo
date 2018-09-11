@@ -1,0 +1,13 @@
+ellipsis()
+  overflow:hidden
+  white-space:nowrap
+  text-overflow:ellipsis
+    
+font-dpr($size)
+  font-size:  $size * 0.5 
+  [data-dpr="2"] &
+    font-size: $size * 1
+  [data-dpr="3"] &
+    font-size: $size *1.5
+    
+    
